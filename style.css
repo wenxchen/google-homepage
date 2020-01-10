@@ -1,0 +1,52 @@
+body{
+    background-color: #ffffff;
+  }
+  .header {
+    float : left;
+  }
+  .header-right {
+    float: right;
+  }
+  #logo {
+    position: fixed;
+    top:35%;
+    left:50%;
+    margin-left: -146px;
+    margin-top: -46px;
+  }
+  #search-bar{
+    position: fixed;
+    margin: auto;
+    top: 48%;
+    width: 97.5%;
+    text-align: center;
+  }
+  #actual-bar{
+    width: 30em;
+    height: 2.3em;
+    border-radius: 25px;
+    border-width: 2px;
+  
+  }
+  .searchbuttons {
+    position: fixed;
+    top: 58%;
+    width: 98%;
+    text-align: center;
+  }
+  #button{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+  .footer-right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
