@@ -1,6 +1,13 @@
 body{
     background-color: #ffffff;
   }
+  span{
+    margin: 8px;
+  }
+  input{
+    border: 0px;
+    width: 28em;
+  }
   .header {
     float : left;
   }
@@ -8,34 +15,32 @@ body{
     float: right;
   }
   #logo {
-    position: fixed;
-    top:35%;
-    left:50%;
-    margin-left: -146px;
-    margin-top: -46px;
+    padding: 110px 0 0 100px;
   }
   #search-bar{
-    position: fixed;
-    margin: auto;
-    top: 48%;
-    width: 97.5%;
-    text-align: center;
+    margin-top: 20px;
   }
   #actual-bar{
     width: 30em;
     height: 2.3em;
-    border-radius: 25px;
-    border-width: 2px;
-  
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    display: flex;
+  }
+  #search-icon{
+    padding-top: 6px;
+    padding-left: 10px;
+    margin-right: 20px;
+    color: #9AA0A6;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
   }
   .searchbuttons {
-    position: fixed;
-    top: 58%;
-    width: 98%;
-    text-align: center;
+    padding-top: 30px;
   }
   #button{
-    display: inline-block;
+    color: #5F6368;
     margin: 5px;
     padding: 10px;
     background-color: #f2f2f2;
@@ -44,9 +49,10 @@ body{
   .footer {
     position: fixed;
     bottom: 0;
+    left: 20px;
   }
   .footer-right{
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 20px;
   }
