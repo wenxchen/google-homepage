@@ -3,6 +3,13 @@ body{
   }
   span{
     margin: 8px;
+    color: rgba(0,0,0,0.87);
+    font-family: arial, sans-serif;
+  }
+  span:hover{
+    color: rgba(0,0,0,1);
+    text-decoration: underline;
+    cursor: pointer;
   }
   input{
     border: 0px;
@@ -47,12 +54,17 @@ body{
     border-radius: 5px;
   }
   .footer {
+    background-color: #f2f2f2;
     position: fixed;
+    line-height: 40px;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-left {
     bottom: 0;
     left: 20px;
   }
   .footer-right{
-    position: fixed;
     bottom: 0;
     right: 20px;
   }
