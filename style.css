@@ -2,11 +2,15 @@ body{
     background-color: #ffffff;
   }
   span{
-    margin: 8px;
+    margin: 0 20px 0 20px;
+  }
+  a{
+    margin: 10px;
     color: rgba(0,0,0,0.87);
     font-family: arial, sans-serif;
+    text-decoration: none;
   }
-  span:hover{
+  a:hover{
     color: rgba(0,0,0,1);
     text-decoration: underline;
     cursor: pointer;
@@ -16,13 +20,28 @@ body{
     width: 28em;
   }
   .header {
-    float : left;
+    font-size: 12px;
+    margin-top: 20px;
+    position: fixed;
+    line-height: 40px;
+    width: 100%;
   }
-  .header-right {
+  #header-left{
+    align-items: center;
+  }
+  #header-right {
+    align-items: center;
+    right: 10px;
+    position: absolute;
     float: right;
   }
+  #signin{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #4386f9;
+  }
   #logo {
-    padding: 110px 0 0 100px;
+    padding: 110px 0 0 0;
   }
   #search-bar{
     margin-top: 20px;
@@ -59,12 +78,16 @@ body{
     line-height: 40px;
     bottom: 0;
     width: 100%;
+    font-size: 12px;
+    margin: 0 -10px 0 -10px;
+    border: 1px solid #dfele5;
   }
   .footer-left {
     bottom: 0;
     left: 20px;
   }
   .footer-right{
+    float: right;
     bottom: 0;
     right: 20px;
   }
